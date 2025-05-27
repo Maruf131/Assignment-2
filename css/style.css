@@ -244,6 +244,39 @@ main > section{
     border-radius: 18PX;
 
 }
+
+/* footer section  */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 70px 190px;
+}
+.footer-heading{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.service{
+    margin-top: 20px;
+}
+.service > li{
+    list-style: none;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    max-width: 80%;
+    margin: 50px auto 20px auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+}
 /* main section End  */
 
 
@@ -346,5 +379,14 @@ main > section{
     }
     .team-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer section  */
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 40px 20px;
     }
 }
